@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.6.1",
+    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "bootstrap-vue-next": "^0.25.10",
+    "node-fetch": "^3.3.2",
     "nuxt": "^3.13.2",
+    "rss-parser": "^3.13.0",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "xml2js": "^0.6.2"
   }
 }

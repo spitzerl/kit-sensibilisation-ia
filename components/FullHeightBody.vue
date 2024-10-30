@@ -1,6 +1,6 @@
 <template>
     <section id="full-height-body" class="vh-100 d-flex flex-wrap justify-content-center align-items-center bg-light text-white">
-        <div class="card hover-effect m-2 rounded" style="width: 18rem;" @click="redirectTo('/page1')">
+        <div class="card hover-effect m-2 rounded" style="width: 18rem;" @click="redirectTo('/news')">
             <img src="https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg" class="card-img-top rounded" alt="...">
             <div class="card-img-overlay d-flex justify-content-center align-items-center">
                 <h5 class="card-title font-weight-bold display-6 text-light">Actualités</h5>
@@ -25,7 +25,7 @@
 export default {
     methods: {
         redirectTo(path) {
-            this.$router.push(path);
+            this.$router.push(path); // Utilisation de Vue Router pour la redirection
         }
     }
 }

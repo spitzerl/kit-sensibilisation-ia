@@ -7,5 +7,5 @@
 </template>
 
 <script setup>
-import FullHeightHeader from '~/components/FullHeightHeader.vue'
+import FullHeightHeader from "~/components/FullHeightHeader.vue";
 </script>
