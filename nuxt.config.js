@@ -12,5 +12,5 @@ export default defineNuxtConfig({
       transpile: ["bootstrap-vue-next"],
   },
 
-  modules: ["@nuxt/icon", "nuxt-bootstrap-icons"],
+  modules: ["nuxt-bootstrap-icons"],
 });

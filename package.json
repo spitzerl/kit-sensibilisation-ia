@@ -10,17 +10,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@nuxt/icon": "^1.6.1",
-    "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
     "bootstrap-vue-next": "^0.25.10",
     "node-fetch": "^3.3.2",
     "nuxt": "^3.13.2",
-    "nuxt-bootstrap-icons": "^2.1.0",
     "rss-parser": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest",
     "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "sass": "^1.80.5",
+    "sass-loader": "^16.0.2"
   }
 }
