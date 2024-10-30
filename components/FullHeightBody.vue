@@ -34,6 +34,7 @@ export default {
 <style>
 .hover-effect {
     transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer; /* Changer le curseur quand il passe sur une carte */
 }
 .hover-effect:hover {
     transform: scale(1.05);
@@ -42,6 +43,7 @@ export default {
 .hover-effect:active {
     transform: scale(0.95);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: grabbing; /* Changer le curseur quand il clique */
 }
 .card-title {
     font-weight: bold;
