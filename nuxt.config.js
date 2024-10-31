@@ -4,8 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   css: [
-      "bootstrap/dist/css/bootstrap.css",
-      "bootstrap-vue-next/dist/bootstrap-vue-next.css",
+      "bootstrap/dist/css/bootstrap.css"
   ],
 
   build: {

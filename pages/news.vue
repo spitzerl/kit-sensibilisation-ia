@@ -67,7 +67,7 @@ onBeforeUnmount(() => {
 </script>
 
 <style>
-.container {
+/* .container {
 	max-width: 800px;
-}
+} */
 </style>
