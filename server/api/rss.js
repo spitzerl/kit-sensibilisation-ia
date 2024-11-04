@@ -2,11 +2,10 @@ import fetch from 'node-fetch';
 import { parseStringPromise } from 'xml2js';
 
 export default defineEventHandler(async (event) => {
-  const rssUrl = 'https://news.google.com/rss/search?q=inteligence%20artificielle%22&hl=fr&gl=FR&ceid=FR:fr';
-  
+  const rssUrl = 'https://rss.app/feeds/tOaRywWOt0KHLNoU.xml';
+
   try {
     const response = await fetch(rssUrl);
-
     const contentType = response.headers.get('content-type') || '';
     if (!contentType.includes('xml') && !contentType.includes('rss')) {
       console.error('Le contenu récupéré n\'est pas du XML:', contentType);
@@ -14,19 +13,25 @@ export default defineEventHandler(async (event) => {
     }
 
     let xmlData = await response.text();
-
     xmlData = xmlData.trim().replace(/^[^<]+/, '');
 
     const parsedData = await parseStringPromise(xmlData);
 
-    let articles = parsedData.rss.channel[0].item.map(item => ({
-      title: item.title[0],
-      link: item.link[0],
-      description: item.description[0],
-      pubDate: new Date(item.pubDate[0]),
-    }));
+    const articles = parsedData.rss.channel[0].item.map(item => {
+      let description = item.description[0];
+      const imageUrl = item['media:content'] ? item['media:content'][0].$.url : (item['content:image'] ? item['content:image'][0] : (item.enclosure ? item.enclosure[0].$.url : null));
 
-    articles = articles.sort((a, b) => b.pubDate - a.pubDate).slice(0, 10);
+      // Supprimez les balises <img> et <div> de la description
+      description = description.replace(/<img[^>]*>/g, '').replace(/<\/?div[^>]*>/g, '');
+
+      return {
+        title: item.title[0],
+        link: item.link[0],
+        description: description,
+        pubDate: new Date(item.pubDate[0]),
+        image: imageUrl,
+      };
+    });
 
     return articles;
   } catch (error) {
