@@ -13,12 +13,14 @@
     "bootstrap": "^5.3.3",
     "node-fetch": "^3.3.2",
     "nuxt": "^3.13.2",
+    "nuxt-icon": "^1.0.0-beta.7",
     "rss-parser": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@nuxt/icon": "^1.6.1",
     "sass": "^1.80.5",
     "sass-loader": "^16.0.2"
   }
