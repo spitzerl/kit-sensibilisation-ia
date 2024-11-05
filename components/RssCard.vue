@@ -17,10 +17,10 @@
 
 <script setup>
 const props = defineProps({
-    article: {
-        type: Object,
-        required: true,
-    },
+	article: {
+		type: Object,
+		required: true,
+	},
 });
 </script>
 

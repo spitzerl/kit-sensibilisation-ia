@@ -20,6 +20,7 @@
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
+    "@iconify-json/material-symbols": "^1.2.6",
     "@nuxt/icon": "^1.6.1",
     "sass": "^1.80.5",
     "sass-loader": "^16.0.2"
