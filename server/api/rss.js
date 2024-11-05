@@ -17,7 +17,13 @@ export default defineEventHandler(async (event) => {
 
 		const parsedData = await parseStringPromise(xmlData);
 
-		const articles = parsedData.rss.channel[0].item.map((item) => {
+		// Filtrer les articles dont le lien contient "dailymotion.com"
+		const filteredItems = parsedData.rss.channel[0].item.filter((item) => {
+			const link = item.link[0];
+			return !link.includes("dailymotion.com");
+		});
+
+		const articles = filteredItems.map((item) => {
 			let description = item.description[0];
 			const imageUrl = item["media:content"] ? item["media:content"][0].$.url : item["content:image"] ? item["content:image"][0] : item.enclosure ? item.enclosure[0].$.url : null;
 
