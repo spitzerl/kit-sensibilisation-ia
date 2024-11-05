@@ -4,7 +4,10 @@
 		<title>KIT IA</title>
 	</head>
 	<FullHeightHeader />
-	<section id="full-height-body"
+	<section id="target-section">
+		<!-- Contenu de la section -->
+	</section>
+	<!-- <section id="full-height-body"
 		class="vh-100 d-flex flex-wrap justify-content-center align-items-center bg-light text-white">
 		<div class="card home-card hover-effect m-2 rounded" @click="redirectTo('/news')">
 			<img src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_1280.jpg"
@@ -28,7 +31,7 @@
 			</div>
 		</div>
 	</section>
-	<CustomFooter />
+	<CustomFooter /> -->
 </template>
 
 <script setup>

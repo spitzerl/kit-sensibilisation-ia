@@ -4,11 +4,11 @@ export default defineNuxtConfig({
 	compatibilityDate: "2024-04-03",
 	devtools: { enabled: true },
 
-	css: ["bootstrap/dist/css/bootstrap.css"],
+	// css: ["bootstrap/dist/css/bootstrap.css"],
 
-	build: {
-		transpile: ["bootstrap-vue-next"],
-	},
+	// build: {
+	// 	transpile: ["bootstrap-vue-next"],
+	// },
 
-	modules: ["@nuxt/icon", "@nuxt/ui"],
+	modules: ["@nuxt/ui", "@nuxt/icon"],
 });
