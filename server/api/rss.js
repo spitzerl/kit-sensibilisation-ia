@@ -17,7 +17,6 @@ export default defineEventHandler(async (event) => {
 
 		const parsedData = await parseStringPromise(xmlData);
 
-		// Filtrer les articles dont le lien contient "dailymotion.com"
 		const filteredItems = parsedData.rss.channel[0].item.filter((item) => {
 			const link = item.link[0];
 			return !link.includes("dailymotion.com");
@@ -30,12 +29,19 @@ export default defineEventHandler(async (event) => {
 			// Supprimez les balises <img> et <div> de la description
 			description = description.replace(/<img[^>]*>/g, "").replace(/<\/?div[^>]*>/g, "");
 
+			// Formatez la date au format jj/mm/yyyy
+			const date = new Date(item.pubDate[0]).toLocaleDateString("fr-FR", {
+				day: "2-digit",
+				month: "2-digit",
+				year: "numeric",
+			});
+
 			return {
 				title: item.title[0],
 				link: item.link[0],
 				description: description,
-				pubDate: new Date(item.pubDate[0]),
 				image: imageUrl,
+				date: date, // Utilisez la date formatée
 			};
 		});
 

@@ -1,7 +1,8 @@
 <template>
-	<div>
+	<NavbarMenu />
+	<div class="container mx-auto">
 		<div class="grid p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-			<RssCard v-for="article in articles" :key="article.link" :title="article.title" :image="article.image" :description="article.description" :link="article.link" />
+			<RssCard v-for="article in articles" :key="article.link" :title="article.title" :image="article.image" :description="article.description" :link="article.link" :date="article.date" />
 		</div>
 	</div>
 </template>
