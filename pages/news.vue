@@ -6,6 +6,7 @@
 			<RssCard v-for="article in articles" :key="article.link" :title="article.title" :image="article.image" :description="article.description" :link="article.link" :date="article.date" />
 		</div>
 	</div>
+	<PageFooter />
 </template>
 
 <script setup>
