@@ -57,16 +57,16 @@ yarn install
 bun install
 ```
 
-<h3>Serveur de développement</h3>
+## Development Server
 
-Démarrer le serveur de développement sur `http://localhost:3000`:
+Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
 npm run dev
 
 # pnpm
-pnpm dev
+pnpm run dev
 
 # yarn
 yarn dev
@@ -75,16 +75,16 @@ yarn dev
 bun run dev
 ```
 
-<h3>Production</h3>
+## Production
 
-Mise en production de l'application
+Build the application for production:
 
 ```bash
 # npm
 npm run build
 
 # pnpm
-pnpm build
+pnpm run build
 
 # yarn
 yarn build
@@ -93,14 +93,14 @@ yarn build
 bun run build
 ```
 
-Tester la version prod
+Locally preview production build:
 
 ```bash
 # npm
 npm run preview
 
 # pnpm
-pnpm preview
+pnpm run preview
 
 # yarn
 yarn preview
@@ -108,7 +108,6 @@ yarn preview
 # bun
 bun run preview
 ```
-
 <!--<h2 id="colab">🤝 Collaborators</h2>
 
 <p>Special thank you for all people that contributed for this project.</p>
