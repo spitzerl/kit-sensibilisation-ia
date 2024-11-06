@@ -46,6 +46,7 @@
 			</a>
 		</UContainer>
 	</div>
+	<PageFooter />
 </template>
 
 <script setup>
