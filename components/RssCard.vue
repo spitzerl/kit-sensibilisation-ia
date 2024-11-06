@@ -11,7 +11,7 @@
 		<div class="px-4 pb-4">
 			<footer class="flex justify-between items-center">
 				<span class="text-gray-600 text-sm">{{ date }}</span>
-				<a :href="link" target="_blank" class="text-blue-500 hover:text-blue-700">Lire la suite</a>
+				<a :href="link" target="_blank" class="text-primary hover:text-blue-700">Lire la suite</a>
 			</footer>
 		</div>
 	</div>

@@ -1,5 +1,5 @@
 <template>
-	<nav class="bg-gray-800 p-4">
+	<nav class="bg-primary p-4">
 		<div class="container mx-auto">
 			<nuxt-link to="/" class="text-white flex items-center">
 				<Icon name="material-symbols:arrow-left-alt-rounded" class="mr-2" />
