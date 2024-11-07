@@ -1,37 +1,52 @@
 <template>
-	<div class="flex flex-col min-h-screen">
-		<div class="flex-grow">
-			<!-- Contenu principal -->
-			<UContainer class="header">
-				<h1 class="text-4xl font-bold">Bienvenue sur le kit de sensibilisation aux IA</h1>
-				<h2 class="text-2xl mt-4">Ce site a pour but de vous fournir différentes ressources pour mieux appréhender les intelligences artificielles.</h2>
-				<button @click="scrollToContent" class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
-					<Icon name="material-symbols:keyboard-double-arrow-down-rounded" class="text-black w-8 h-8" />
-				</button>
-			</UContainer>
-			<UContainer ref="content" class="content p-10 grid grid-cols-1 md:grid-cols-3 gap-5">
-				<NuxtLink to="/news" class="card-link">
-					<div class="card-container">
-						<img src="https://cdn.pixabay.com/photo/2018/09/04/10/06/man-3653346_1280.jpg" alt="" class="card-image" />
-						<div class="card-text">Actualité</div>
-					</div>
-				</NuxtLink>
-				<a href="#" class="card-link">
-					<div class="card-container">
-						<img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_1280.jpg" alt="" class="card-image" />
-						<div class="card-text">Liste des IA</div>
-					</div>
-				</a>
-				<a href="#" class="card-link">
-					<div class="card-container">
-						<img src="https://cdn.pixabay.com/photo/2021/12/12/20/00/woman-6865977_1280.jpg" alt="" class="card-image" />
-						<div class="card-text">Références culturelles</div>
-					</div>
-				</a>
-			</UContainer>
-		</div>
-		<PageFooter />
+	<div>
+		<UContainer class="header" style="height: 100vh">
+			<h1 class="text-4xl font-bold">Bienvenue sur le kit de sensibilisation aux IA</h1>
+			<h2 class="text-2xl mt-4">Ce site a pour but de vous fournir différentes ressources pour mieux appréhender les intelligences artificielles.</h2>
+			<button @click="scrollToContent" class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
+				<Icon name="material-symbols:keyboard-double-arrow-down-rounded" style="color: black; width: 2em; height: 2em" />
+			</button>
+		</UContainer>
+		<UContainer ref="content" class="content p-10 grid grid-cols-1 md:grid-cols-3 gap-5" style="height: 100vh">
+			<NuxtLink to="/news" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2018/09/04/10/06/man-3653346_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Actualité</div>
+				</div>
+			</NuxtLink>
+			<a href="#" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Liste des IA</div>
+				</div>
+			</a>
+			<a href="#" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2021/12/12/20/00/woman-6865977_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Références culturelles</div>
+				</div>
+			</a>
+			<a href="#" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2017/12/10/17/00/robot-3010309_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Les IA vont-elles nous remplacer ?</div>
+				</div>
+			</a>
+			<a href="#" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2018/09/04/10/06/man-3653346_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Quizz</div>
+				</div>
+			</a>
+			<a href="#" class="card-link">
+				<div class="card-container">
+					<img src="https://cdn.pixabay.com/photo/2016/02/19/12/06/camera-1210111_1280.jpg" alt="" class="card-image" />
+					<div class="card-text">Article vidéo</div>
+				</div>
+			</a>
+		</UContainer>
 	</div>
+	<PageFooter />
 </template>
 
 <script setup>
