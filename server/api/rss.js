@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import { parseStringPromise } from "xml2js";
 
 export default defineEventHandler(async (event) => {
-	const rssUrl = "https://rss.app/feeds/tOaRywWOt0KHLNoU.xml";
+	const rssUrl = "https://news.google.com/rss/topics/CAAqIAgKIhpDQkFTRFFvSEwyMHZNRzFyZWhJQ1puSW9BQVAB?hl=fr&gl=FR&ceid=FR%3Afr";
 
 	try {
 		const response = await fetch(rssUrl);
