@@ -10,7 +10,7 @@
 		<UContainer ref="content" class="content p-10 grid grid-cols-1 md:grid-cols-3 gap-5" style="height: 100vh">
 			<NuxtLink to="/news" class="card-link">
 				<div class="card-container">
-					<img src="https://cdn.pixabay.com/photo/2018/09/04/10/06/man-3653346_1280.jpg" alt="" class="card-image" />
+					<img src="https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Actualité</div>
 				</div>
 			</NuxtLink>
