@@ -1,0 +1,110 @@
+[
+	{
+		"nom": "ChatGPT",
+		"description": "Modèle de langage avancé développé par OpenAI, capable de comprendre et de générer du texte en langage naturel, utile pour les conversations, l'assistance et la création de contenu.",
+		"createur": "OpenAI",
+		"lien": "https://chat.openai.com/"
+	},
+	{
+		"nom": "DALL-E",
+		"description": "Modèle de génération d'images à partir de texte, créé par OpenAI. Il convertit les descriptions textuelles en images réalistes ou artistiques selon les instructions données.",
+		"createur": "OpenAI",
+		"lien": "https://openai.com/dall-e/"
+	},
+	{
+		"nom": "Midjourney",
+		"description": "Outil de création d'images basé sur l'IA, populaire pour la génération d'images de style artistique et surréaliste à partir de prompts textuels détaillés.",
+		"createur": "Midjourney Inc.",
+		"lien": "https://www.midjourney.com/"
+	},
+	{
+		"nom": "Mistral",
+		"description": "Modèle de langage open-source performant, spécialement conçu pour traiter de grandes quantités de données textuelles avec une architecture optimisée pour les tâches en NLP.",
+		"createur": "Mistral AI",
+		"lien": "https://www.mistral.ai/"
+	},
+	{
+		"nom": "Stable Diffusion",
+		"description": "Modèle open-source de génération d'images à partir de texte, conçu pour créer des images réalistes et variées. Utilisé dans l'art numérique et la création de contenu visuel.",
+		"createur": "Stability AI",
+		"lien": "https://stability.ai/"
+	},
+	{
+		"nom": "DeepL",
+		"description": "Service de traduction automatisée utilisant des réseaux neuronaux pour produire des traductions de haute qualité dans plusieurs langues.",
+		"createur": "DeepL GmbH",
+		"lien": "https://www.deepl.com/"
+	},
+	{
+		"nom": "Claude",
+		"description": "Modèle de langage conçu pour des applications en traitement du langage naturel, utilisé pour l'assistance conversationnelle et la compréhension du langage.",
+		"createur": "Anthropic",
+		"lien": "https://www.anthropic.com/index/claude"
+	},
+	{
+		"nom": "BERT",
+		"description": "Modèle de langage bidirectionnel développé par Google, utilisé pour diverses tâches NLP comme la classification de texte et l'analyse de sentiments.",
+		"createur": "Google AI",
+		"lien": "https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html"
+	},
+	{
+		"nom": "GPT-4",
+		"description": "Modèle de génération de texte amélioré par rapport à GPT-3, avec des capacités avancées de compréhension et de création de contenu.",
+		"createur": "OpenAI",
+		"lien": "https://openai.com/research/gpt-4"
+	},
+	{
+		"nom": "Synthesia",
+		"description": "Plateforme de génération de vidéos à partir de texte, utilisant des avatars numériques qui interprètent les scripts textuels dans diverses langues.",
+		"createur": "Synthesia",
+		"lien": "https://www.synthesia.io/"
+	},
+	{
+		"nom": "Hugging Face Transformers",
+		"description": "Bibliothèque open-source qui fournit des modèles pré-entraînés pour le traitement du langage naturel et la vision, tels que BERT, GPT-2, T5.",
+		"createur": "Hugging Face",
+		"lien": "https://huggingface.co/transformers/"
+	},
+	{
+		"nom": "Cohere",
+		"description": "API NLP fournissant des modèles de génération et de classification de texte pour des applications en entreprise et en développement de produits.",
+		"createur": "Cohere Inc.",
+		"lien": "https://cohere.ai/"
+	},
+	{
+		"nom": "AlphaFold",
+		"description": "Modèle d'intelligence artificielle permettant de prédire la structure 3D des protéines à partir de leur séquence d'acides aminés, une avancée significative pour la recherche biologique.",
+		"createur": "DeepMind",
+		"lien": "https://deepmind.com/research/case-studies/alphafold"
+	},
+	{
+		"nom": "Jasper",
+		"description": "Outil d'écriture assistée par l'IA qui aide à générer des articles, des emails et des publications sur les réseaux sociaux à partir de simples instructions textuelles.",
+		"createur": "Jasper",
+		"lien": "https://www.jasper.ai/"
+	},
+	{
+		"nom": "Replika",
+		"description": "Compagnon virtuel utilisant l'IA pour discuter avec les utilisateurs et leur fournir un soutien émotionnel, avec une personnalisation du style de conversation.",
+		"createur": "Luka, Inc.",
+		"lien": "https://replika.ai/"
+	},
+	{
+		"nom": "BigGAN",
+		"description": "Modèle de génération d'images basé sur les réseaux antagonistes génératifs, capable de produire des images réalistes à partir de bruit aléatoire.",
+		"createur": "DeepMind",
+		"lien": "https://deepmind.com/blog/article/biggan-image-generation"
+	},
+	{
+		"nom": "Whisper",
+		"description": "Modèle de reconnaissance vocale développé par OpenAI, conçu pour convertir des enregistrements audio en texte de manière précise.",
+		"createur": "OpenAI",
+		"lien": "https://openai.com/research/whisper"
+	},
+	{
+		"nom": "T5",
+		"description": "Modèle de transformation de texte à texte, utilisé pour diverses tâches NLP comme la traduction, la classification, et le résumé de texte.",
+		"createur": "Google Research",
+		"lien": "https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html"
+	}
+]

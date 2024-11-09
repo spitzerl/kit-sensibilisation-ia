@@ -14,7 +14,7 @@
 					<div class="card-text">Actualité</div>
 				</div>
 			</NuxtLink>
-			<a href="#" class="card-link">
+			<a href="/list" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2017/02/18/11/00/checklist-2077020_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Liste des IA</div>
