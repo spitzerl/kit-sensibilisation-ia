@@ -10,7 +10,3 @@
 <script setup>
 import RssCard from "~/components/RssCard.vue";
 </script>
-
-<style>
-/* Ajoutez des styles supplémentaires si nécessaire */
-</style>
