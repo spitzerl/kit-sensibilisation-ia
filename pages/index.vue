@@ -3,7 +3,7 @@
 		<UContainer class="header" style="height: 100vh">
 			<h1 class="text-4xl font-bold">Bienvenue sur le kit de sensibilisation aux IA</h1>
 			<h2 class="text-2xl mt-4">Ce site a pour but de vous fournir différentes ressources pour mieux appréhender les intelligences artificielles.</h2>
-			<button @click="scrollToContent" class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
+			<button @click="scrollToContent" aria-label="Scroll down to cards menu " class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
 				<Icon name="material-symbols:keyboard-double-arrow-down-rounded" style="color: black; width: 2em; height: 2em" />
 			</button>
 		</UContainer>
