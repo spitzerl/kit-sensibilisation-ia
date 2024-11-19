@@ -20,7 +20,7 @@
 					<div class="card-text">Liste des IA</div>
 				</div>
 			</a>
-			<a href="#" class="card-link">
+			<a href="/culture" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2021/12/12/20/00/woman-6865977_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Références culturelles</div>
