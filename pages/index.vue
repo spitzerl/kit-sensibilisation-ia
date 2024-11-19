@@ -3,7 +3,7 @@
 		<UContainer class="header" style="height: 100vh">
 			<h1 class="text-4xl font-bold">Bienvenue sur le kit de sensibilisation aux IA</h1>
 			<h2 class="text-2xl mt-4">Ce site a pour but de vous fournir différentes ressources pour mieux appréhender les intelligences artificielles.</h2>
-			<button @click="scrollToContent" class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
+			<button @click="scrollToContent" aria-label="Scroll down to cards menu " class="mt-8 w-16 h-16 bg-primary text-black rounded-full flex items-center justify-center">
 				<Icon name="material-symbols:keyboard-double-arrow-down-rounded" style="color: black; width: 2em; height: 2em" />
 			</button>
 		</UContainer>
@@ -20,30 +20,30 @@
 					<div class="card-text">Liste des IA</div>
 				</div>
 			</a>
-			<a href="#" class="card-link">
+			<a href="/culture" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2021/12/12/20/00/woman-6865977_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Références culturelles</div>
 				</div>
 			</a>
-			<a href="#" class="card-link">
+			<!-- <a href="#" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2017/12/10/17/00/robot-3010309_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Les IA vont-elles nous remplacer ?</div>
 				</div>
-			</a>
-			<a href="#" class="card-link">
+			</a> -->
+			<a href="https://create.kahoot.it/share/quizz-sur-les-i-a/6e517872-b069-497f-8059-abac81c614b2" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2018/09/04/10/06/man-3653346_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Quizz</div>
 				</div>
 			</a>
-			<a href="#" class="card-link">
+			<!-- <a href="#" class="card-link">
 				<div class="card-container">
 					<img src="https://cdn.pixabay.com/photo/2016/02/19/12/06/camera-1210111_1280.jpg" alt="" class="card-image" />
 					<div class="card-text">Article vidéo</div>
 				</div>
-			</a>
+			</a> -->
 		</UContainer>
 	</div>
 	<PageFooter />

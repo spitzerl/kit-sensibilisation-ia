@@ -1,0 +1,92 @@
+[
+	{
+		"titre": "I, Robot",
+		"description": "Un film de science-fiction basé sur les histoires d'Isaac Asimov, explorant les interactions entre les humains et les robots.",
+		"date": "2004",
+		"type": "Film"
+	},
+	{
+		"titre": "Chappie",
+		"description": "Un film de science-fiction qui raconte l'histoire d'un robot doté d'une intelligence artificielle avancée et de la capacité d'apprendre et de ressentir.",
+		"date": "2015",
+		"type": "Film"
+	},
+	{
+		"titre": "Ex Machina",
+		"description": "Un thriller de science-fiction qui explore les implications éthiques et philosophiques de l'intelligence artificielle.",
+		"date": "2014",
+		"type": "Film"
+	},
+	{
+		"titre": "Her",
+		"description": "Un film de science-fiction romantique qui explore la relation entre un homme et une intelligence artificielle avancée.",
+		"date": "2013",
+		"type": "Film"
+	},
+	{
+		"titre": "Eva",
+		"description": "Un film de science-fiction espagnol qui explore les relations entre les humains et les robots dans un futur proche.",
+		"date": "2011",
+		"type": "Film"
+	},
+	{
+		"titre": "Neuromancer",
+		"description": "Un roman de science-fiction écrit par William Gibson, considéré comme l'un des premiers ouvrages du genre cyberpunk.",
+		"date": "1984",
+		"type": "Livre"
+	},
+	{
+		"titre": "Do Androids Dream of Electric Sheep?",
+		"description": "Un roman de science-fiction écrit par Philip K. Dick, qui a inspiré le film Blade Runner.",
+		"date": "1968",
+		"type": "Livre"
+	},
+	{
+		"titre": "The Matrix",
+		"description": "Un film de science-fiction qui explore la nature de la réalité et l'intelligence artificielle.",
+		"date": "1999",
+		"type": "Film"
+	},
+	{
+		"titre": "Westworld",
+		"description": "Une série télévisée de science-fiction qui explore les implications de la création d'androïdes réalistes dans un parc à thème.",
+		"date": "2016",
+		"type": "Série TV"
+	},
+	{
+		"titre": "Black Mirror",
+		"description": "Une série télévisée d'anthologie qui explore les thèmes de la technologie et de l'intelligence artificielle à travers des histoires indépendantes.",
+		"date": "2011",
+		"type": "Série TV"
+	},
+	{
+		"titre": "Blade Runner",
+		"description": "Un film de science-fiction basé sur le roman de Philip K. Dick, explorant les thèmes de l'identité et de l'intelligence artificielle.",
+		"date": "1982",
+		"type": "Film"
+	},
+	{
+		"titre": "A.I. Artificial Intelligence",
+		"description": "Un film de science-fiction réalisé par Steven Spielberg, qui raconte l'histoire d'un enfant robot cherchant à devenir humain.",
+		"date": "2001",
+		"type": "Film"
+	},
+	{
+		"titre": "Ghost in the Shell",
+		"description": "Un film d'animation japonais qui explore les thèmes de la cybernétique et de l'intelligence artificielle.",
+		"date": "1995",
+		"type": "Film d'animation"
+	},
+	{
+		"titre": "Transcendence",
+		"description": "Un film de science-fiction qui explore les conséquences de la création d'une intelligence artificielle consciente.",
+		"date": "2014",
+		"type": "Film"
+	},
+	{
+		"titre": "2001: A Space Odyssey",
+		"description": "Un film de science-fiction réalisé par Stanley Kubrick, qui explore les thèmes de l'intelligence artificielle et de l'évolution humaine.",
+		"date": "1968",
+		"type": "Film"
+	}
+]
